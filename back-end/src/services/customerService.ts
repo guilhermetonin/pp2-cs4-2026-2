@@ -1,6 +1,6 @@
 import * as repository from "../repositories/customerRepository.js";
 
-import type { Customer } from "../generated/prisma/client.ts";
+import type { Customer } from "../../generated/prisma/client.ts";
 import type { CreateCustomerDto } from "../dto/customer/createCustomerDto.ts";
 import type { UpdateCustomerDto } from "../dto/customer/updateCustomerDto.ts";
 
